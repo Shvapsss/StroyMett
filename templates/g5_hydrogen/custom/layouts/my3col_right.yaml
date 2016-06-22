@@ -1,0 +1,45 @@
+version: 2
+
+preset:
+  image: gantry-admin://images/layouts/3-col-right.png
+
+layout:
+  /top/:
+    
+  /header/:
+    - [logo 30, position-header 70]
+    
+  /slider/:    
+
+  /navigation/:
+    - menu
+
+  /breadcrumbs/:
+    - position-breadcrumbs  
+    
+  /container-main/:
+    -   
+      - main 60:
+          - system-messages
+          - system-content
+      - aside 20:
+         - position-aside
+      - sidebar 20:
+         - position-sidebar    
+    
+  /bottom/:
+
+  /footer/:
+    - position-footer
+
+  offcanvas:
+    - particle-mobile-menu
+
+structure:
+  sidebar:
+    subtype: aside
+    block:
+      fixed: 1
+  aside:
+    block:
+      fixed: 1

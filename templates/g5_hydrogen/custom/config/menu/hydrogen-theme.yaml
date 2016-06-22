@@ -1,0 +1,15 @@
+ordering:
+  hydrogen: ''
+  primery-rabot:
+    blagoustrojstvo: ''
+    pokrytie-ploshchadok: ''
+    biotualety: ''
+  kontakty: ''
+items:
+  primery-rabot:
+    id: 120
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: ''
+    width: 220px
+    class: ''

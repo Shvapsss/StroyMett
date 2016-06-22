@@ -1,0 +1,11 @@
+preset: preset1
+base:
+  text-color: '#464646'
+navigation:
+  background: 'rgba(255, 255, 255, 0.00)'
+  text-color: '#464646'
+main:
+  text-color: '#464646'
+footer:
+  background: '#ffffff'
+  text-color: '#464646'

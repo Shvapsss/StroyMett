@@ -1,0 +1,35 @@
+version: 2
+
+preset:
+  image: gantry-admin://images/layouts/default.png
+
+layout:
+  /top/:
+    
+  /navigation/:
+    - menu
+    
+  /header/:  
+
+  /showcase/:
+
+  /feature/:
+
+  /main/:
+    - system-messages
+
+  /subfeature/:
+
+  /bottom-1/:
+  
+  /bottom-2/:
+
+  /footer/:
+
+  offcanvas:
+    - mobile-menu
+
+structure:
+  subfeature:
+    attributes:
+      class: flush

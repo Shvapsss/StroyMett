@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<install version="2.0" type="plugin" plugin="jbtype" core="0" row="4" editable="0">
+	<name>JCE - JB Type</name>
+	<author>Ryan Demmer</author>
+	<creationDate>May 23, 2013</creationDate>
+	<copyright>Copyright (c) 2013 Ryan Demmer. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.joomlacontenteditor.net</authorUrl>
+	<version>2.0.8</version>
+	<description>Insert JB Type styles</description>
+	<icon>jbtype</icon>
+	<files>
+		<file>editor_plugin.js</file>
+		<folder>classes</folder>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>langs</folder>
+	</files>
+	<params></params>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_jbtype.ini</language>
+	</languages>
+	<help></help>
+</install>

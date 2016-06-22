@@ -1,0 +1,117 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: mypage
+  timestamp: 1462464995
+layout:
+  /top/:
+    -
+      - position-module-3718
+  /navigation/:
+    -
+      - menu-8458
+  /header/: {  }
+  /showcase/: {  }
+  /feature/:
+    -
+      - position-module-5382
+  /main/:
+    -
+      - system-messages-3065
+    -
+      - system-content-8656
+  /subfeature/: {  }
+  /bottom-1/:
+    -
+      - menu-4345
+  /bottom-2/:
+    -
+      - position-module-8356
+  /footer/:
+    -
+      - position-module-8758
+    -
+      - position-position-8602
+  offcanvas:
+    -
+      - mobile-menu-8010
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+      class: twpage-1
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+      class: wpage-1
+  main:
+    attributes:
+      boxed: ''
+      class: mwpage-1
+  subfeature:
+    type: section
+    attributes:
+      class: flush
+      boxed: ''
+  bottom-1:
+    type: section
+    attributes:
+      boxed: ''
+  bottom-2:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  position-module-3718:
+    title: Logo-top
+    attributes:
+      module_id: '96'
+      key: logo-top
+    block:
+      variations: center
+  position-module-5382:
+    title: 'Хлебные крошки'
+    attributes:
+      module_id: '17'
+      key: хлебные-крошки
+    block:
+      variations: nopaddingall
+  menu-4345:
+    block:
+      variations: 'center nopaddingall'
+  position-module-8356:
+    title: Logo-bottom
+    attributes:
+      module_id: '94'
+      key: logo-bottom
+    block:
+      variations: 'center nopaddingall'
+  position-module-8758:
+    title: Копирайт
+    attributes:
+      module_id: '93'
+      key: копирайт
+    block:
+      variations: center
+  position-position-8602:
+    title: 'Module Position'
+    attributes:
+      key: footer
+  mobile-menu-8010:
+    title: 'Mobile Menu'

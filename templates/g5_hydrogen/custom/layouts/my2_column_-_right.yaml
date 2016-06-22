@@ -1,0 +1,38 @@
+version: 2
+
+preset:
+  image: gantry-admin://images/layouts/2-col-right.png
+
+layout:
+  /top/:
+  
+  /navigation/:
+    - menu
+    
+  /header/:
+    - [logo 30, position-header 70]
+
+  /breadcrumbs/:
+    - position-breadcrumbs
+
+  /container-main/:
+    -
+      - main 80:          
+          - system-messages
+          - position-topcontent
+          - system-content
+          - position-postcontent
+      - sidebar 20:
+         - position-sidebar
+
+  /footer/:
+    - position-footer
+
+  offcanvas:
+    - mobile-menu
+
+structure:
+  sidebar:
+    subtype: aside
+    block:
+      fixed: 1

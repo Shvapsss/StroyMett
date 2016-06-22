@@ -1,0 +1,8 @@
+name: 10
+timestamp: 1464943712
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: myhome
+  timestamp: 1462439046
+positions:
+  footer: 'Module Position'

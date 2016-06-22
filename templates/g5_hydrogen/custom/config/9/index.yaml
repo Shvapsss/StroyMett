@@ -1,0 +1,8 @@
+name: 9
+timestamp: 1464943729
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: mypage
+  timestamp: 1462464995
+positions:
+  footer: 'Module Position'
